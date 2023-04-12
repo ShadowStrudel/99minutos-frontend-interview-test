@@ -1,0 +1,52 @@
+.cardContainer {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 15px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  scroll-snap-align: center;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.selected {
+  background-color: #8f669f7d;
+}
+
+.cardInfo {
+  width: 80%;
+  height: 80%;
+  text-align: center;
+}
+.cardInfo h3 {
+  font-family: Barlow;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.9rem;
+  font-size: 1.6rem;
+}
+.cardInfo section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.cardInfo section p {
+  font-weight: bold;
+  color: #291240;
+  font-family: Barlow;
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 1.4rem;
+}
+
+.cardContainer img {
+  width: 40px;
+  height: 40px;
+}
+.activeTrue {
+  color: green;
+}
+.activeFalse {
+  color: red;
+}
